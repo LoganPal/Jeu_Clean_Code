@@ -6,7 +6,7 @@ const readline = require("readline");
 const jeu = new JeuDeDevinette();
 const jeuBig = new JeuDeDevinetteVersionBig();
 const jeuMoreBig = new JeuDeDevinetteVersionMoreBig();
-var niveau = 1;
+let niveau = 1;
 
 const rl = readline.createInterface({
     input: process.stdin,
